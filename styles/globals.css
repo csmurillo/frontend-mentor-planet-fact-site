@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;700&display=swap');
+
+
+/* font-family: 'Spartan', sans-serif; */
+
+/* font-family: 'Antonio', sans-serif; */
+html, body{
+    width:100%; height:100%;
+    /* background-col/or:aqua; */
+    margin:0 auto;
+    background-color: #070724;
+}
+#__next{
+    width:100%; height:100%;
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    margin:0;
+    padding:0;
+}
+
