@@ -21,7 +21,6 @@ export default function Post({planetData,pageAccentColor}) {
     );
 }
 const PlanetPage = styled.div`
-  width:100%; height:100%;
   display:flex;
   flex-direction:column;
   background-image: url(./images/background-stars.svg);
