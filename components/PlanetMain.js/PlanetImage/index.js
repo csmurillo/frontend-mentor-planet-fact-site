@@ -17,15 +17,15 @@ const PlanetImage = ({images,size,currentToggle}) => {
         <Planet size={desktopSize}>
           {
             currentToggle=='overview' && 
-            <Image src={'/images/'+planet} layout='fill'/>
+            <Image src={'/images/'+planet} alt={'Image of '+planet} layout='fill'/>
           }
           {
             currentToggle=='structure' && 
-            <Image src={'/images/'+internal} layout='fill'/>
+            <Image src={'/images/'+internal} alt={'Internal image of '+planet} layout='fill'/>
           }
           {
             currentToggle=='geology' && 
-            <Image src={'/images/'+planet} layout='fill'/>
+            <Image src={'/images/'+planet} alt={'Geology of planet '+planet} layout='fill'/>
           }
         </Planet>
       }
@@ -34,15 +34,15 @@ const PlanetImage = ({images,size,currentToggle}) => {
         <Planet size={tabletSize}>
           {
             currentToggle=='overview' && 
-            <Image src={'/images/'+planet} layout='fill'/>
+            <Image src={'/images/'+planet} alt={'Image of '+planet} layout='fill'/>
           }
           {
             currentToggle=='structure' && 
-            <Image src={'/images/'+internal} layout='fill'/>
+            <Image src={'/images/'+internal} alt={'Internal image of '+planet} layout='fill'/>
           }
           {
             currentToggle=='geology' && 
-            <Image src={'/images/'+planet} layout='fill'/>
+            <Image src={'/images/'+planet} alt={'Geology of planet '+planet} layout='fill'/>
           }
         </Planet>
       }
@@ -51,15 +51,15 @@ const PlanetImage = ({images,size,currentToggle}) => {
         <Planet size={mobileSize}>
           {
             currentToggle=='overview' && 
-            <Image src={'/images/'+planet} layout='fill'/>
+            <Image src={'/images/'+planet} alt={'Image of '+planet} layout='fill'/>
           }
           {
             currentToggle=='structure' && 
-            <Image src={'/images/'+internal} layout='fill'/>
+            <Image src={'/images/'+internal} alt={'Internal image of '+planet} layout='fill'/>
           }
           {
             currentToggle=='geology' && 
-            <Image src={'/images/'+planet} layout='fill'/>
+            <Image src={'/images/'+planet} alt={'Geology of planet '+planet} layout='fill'/>
           }
         </Planet>
       }
@@ -69,7 +69,7 @@ const PlanetImage = ({images,size,currentToggle}) => {
           {
           currentToggle=='geology' && 
           <Geology>
-            <Image src={'/images/'+geology} width={163} height={199}/>
+            <Image src={'/images/'+geology} alt={'Geology of planet '+planet} width={163} height={199}/>
           </Geology>
         }
         </>
@@ -80,7 +80,7 @@ const PlanetImage = ({images,size,currentToggle}) => {
           {
           currentToggle=='geology' && 
           <Geology>
-            <Image src={'/images/'+geology} width={103} height={129}/>
+            <Image src={'/images/'+geology} alt={'Geology of planet '+planet} width={103} height={129}/>
           </Geology>
         }
         </>
@@ -91,7 +91,7 @@ const PlanetImage = ({images,size,currentToggle}) => {
           {
           currentToggle=='geology' && 
           <Geology>
-            <Image src={'/images/'+geology} width={73} height={89}/>
+            <Image src={'/images/'+geology} alt={'Geology of planet '+planet} width={73} height={89}/>
           </Geology>
           }
         </>
