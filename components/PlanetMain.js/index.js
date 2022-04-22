@@ -6,7 +6,6 @@ import PlanetInformationToggle from './PlanetInformationToggle';
 import PlanetDetails from './PlanetDetails';
 import { PlanetMainContext } from '../../context/PlanetMainContext';
 
-
 const PlanetMain = ({planetData,pageAccentColor})=>{
     const {name,planetImages,planetSize, overview,structure, geology, rotation, revolution, radius, temperature }=planetData;
 

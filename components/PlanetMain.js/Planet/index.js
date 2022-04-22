@@ -8,8 +8,6 @@ import Neptune from '../../../public/images/planet-neptune.svg';
 import Venus from '../../../public/images/planet-venus.svg';
 import Uranus from '../../../public/images/planet-uranus.svg';
 
-
-
 const Planet = ({planet}) => {
   if(planet=='earth'){
     return (
